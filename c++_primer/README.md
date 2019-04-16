@@ -1,1 +1,0 @@
-c++ primer walk through
