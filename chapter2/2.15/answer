@@ -1,0 +1,9 @@
+a. int ival = 1.01
+Correct
+b. int &ival1 = 1.01;
+Wrong. Reference can't be bound to a literal.
+c. int &ival2 = ival;
+Correct
+d. int &ival3
+Wrong. Reference must be initialized.
+
