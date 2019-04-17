@@ -1,0 +1,11 @@
+a. std::cin >> int input_value
+Wrong: Need to define input_value first.
+Answer: int input_value; std::cin >> input_value;
+b. int i = {3.14};
+Wrong: List initialization doesn't allow conversion that might lead to the loss of information.
+Answer: int i = 3.14;
+c. double salary = wage = 9999.99;
+Wrong: wage is not defined.
+Answer: double salary, wage; salary = wage = 9999.99;
+d. int i = 3.14;
+Correct: i will be 3

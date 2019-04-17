@@ -1,0 +1,6 @@
+std::string global_str; // Empty
+int global_int; // 0
+int main() {
+	int local_int; // Undefined
+	std::string local_str; // Undefined
+}
